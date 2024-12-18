@@ -8,7 +8,7 @@
     <ListView Id="Master_Details_ListView" AllowEdit="True" />
     <DetailView Id="Master_DetailView">
       <Items>
-        <PropertyEditor Id="Details" PropertyEditorType="CheckedList.Blazor.Server.Editors.CheckedListBoxEditor.CheckedListBoxEditor" />
+        <PropertyEditor Id="Details" PropertyEditorType="CheckedList.Blazor.Server.Editors.CheckedListBoxPropertyEditor" />
       </Items>
     </DetailView>
   </Views>
