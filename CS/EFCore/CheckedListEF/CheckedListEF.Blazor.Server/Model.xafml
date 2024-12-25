@@ -7,7 +7,7 @@
   <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
     <DetailView Id="Master_DetailView">
       <Items>
-        <PropertyEditor Id="Details" PropertyEditorType="CheckedListEF.Blazor.Server.Editors.CheckedListBoxEditor.CheckedListBoxEditor" />
+        <PropertyEditor Id="Details" PropertyEditorType="CheckedListEF.Blazor.Server.Editors.CheckedListBoxPropertyEditor" />
       </Items>
     </DetailView>
   </Views>
